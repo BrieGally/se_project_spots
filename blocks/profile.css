@@ -125,6 +125,6 @@
 
   .profile__add-btn {
     width: 100%;
-    margin: 0;
+    justify-content: center;
   }
 }

@@ -13,7 +13,7 @@ This project is made so the site can be viewed on all different device types usi
 This website is deployed on GitHub pages.
 
 - [Deployment Link](https://BrieGally.github.io/se_project_spots)
-- [Project video](https://drive.google.com/file/d/16mWlTBgW2fXVEyhNBtzXSgfII3ROWrTZ/view)
+- [Project video](https://drive.google.com/file/d/1LKMFXlID3QR-PzQ5Bz8Ybms9nLPW10EL/view?usp=sharing)
 
   **Figma**
 
