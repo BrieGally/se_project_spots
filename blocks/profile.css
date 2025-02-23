@@ -57,6 +57,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile__edit-btn:hover {
+  cursor: pointer;
+  opacity: 100%;
 }
 
 .profile__add-btn {
@@ -74,6 +82,11 @@
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
+}
+
+.profile__add-btn:hover {
+  cursor: pointer;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {
