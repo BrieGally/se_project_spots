@@ -114,7 +114,7 @@
       </footer>
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
-          <button type="submit" class="modal__close-btn">X</button>
+          <button type="button" class="modal__close-btn">X</button>
           <h2 class="modal__title">Edit profile</h2>
           <form class="modal__form">
             <label for="name" class="modal__label">
@@ -129,7 +129,7 @@
             <label for="description" class="modal__label">
               Description
               <input
-                id="description"
+                id="profile-description"
                 type="text"
                 class="modal__input"
                 placeholder="Describe yourself"
@@ -146,16 +146,20 @@
           <form class="modal__form">
             <label for="card-image-input" class="modal__label">
               Image Link
-              <input id="card-image-input" type="url" class="modal__input" placeholder="Place a link to the picture"/>
+              <input
+                id="card-image-input"
+                type="url"
+                class="modal__input"
+                placeholder="Place a link to the picture"
+              />
             </label>
-      </div>
             <label for="description" class="modal__label">
               Description
               <input
-                id="description"
+                id="post-description"
                 type="text"
                 class="modal__input"
-                placeholder="Describe yourself"
+                placeholder="Add a description"
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
