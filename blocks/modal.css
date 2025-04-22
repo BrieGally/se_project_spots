@@ -33,11 +33,18 @@
   background-image: url(../images/Group\ 27.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   top: 32px;
   right: 50px;
   width: 40px;
   height: 40px;
   opacity: 40%;
+}
+
+.modal__close-btn:hover {
+  opacity: 1;
 }
 
 .modal__title {
@@ -46,6 +53,7 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
+  color: rgba(33, 33, 33, 0.7);
 }
 
 .modal__label {
@@ -56,6 +64,11 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
+  border: 1px solid rgba(33, 33, 33, 0.4);
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 1;
+  color: #212121;
 }
 
 .modal__input {
@@ -65,9 +78,15 @@
 .modal__submit-btn {
   width: 156px;
   padding: 18px 0;
+  border: none;
   border-radius: 8px;
   background-color: #212121;
   color: #fcf5e5;
+  cursor: pointer;
+}
+
+.modal__submit-btn:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
@@ -95,5 +114,9 @@
 
   .modal__submit-btn {
     width: 100%;
+  }
+
+  .modal__input {
+    font-size: 16px;
   }
 }
