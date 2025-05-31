@@ -1,6 +1,6 @@
 const initialCards = [
   {
-    name: "Val Thorens",
+    name: "Val Thrones",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
   },
   {
@@ -85,3 +85,7 @@ newPostForm.addEventListener("submit", function (evt) {
 });
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
+
+initialCards.forEach(function (item) {
+  console.log(item.name);
+});
