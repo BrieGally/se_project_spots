@@ -13,6 +13,10 @@
   visibility: hidden;
 }
 
+.modal_type_preview {
+  padding: 0 16px;
+}
+
 .modal_is-opened {
   visibility: visible;
 }
@@ -41,6 +45,16 @@
   width: 40px;
   height: 40px;
   opacity: 40%;
+}
+
+.modal__close-btn_type_preview {
+  background-image: url(../images/Group\ 27\ pre.svg);
+  top: 0;
+  right: -52.5px;
+}
+
+.modal__close-btn_type_preview:hover {
+  background-image: url(../images/Group\ 27\ pre.svg);
 }
 
 .modal__close-btn:hover {
@@ -92,6 +106,33 @@
   opacity: 0.8;
 }
 
+.modal__image-container {
+  position: relative;
+}
+
+.modal__image {
+  position: relative;
+  max-width: 80vw;
+  max-height: 80vh;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+}
+
+.modal__caption {
+  color: #fff;
+  background-color: #212121;
+  width: 198px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  letter-spacing: 0%;
+  padding: 4px 8px;
+}
+
 @media screen and (max-width: 627px) {
   .modal {
     padding: 0 10px;
@@ -111,6 +152,11 @@
     right: 12px;
   }
 
+  .modal__close-btn_type_preview {
+    top: -48px;
+    right: 0;
+  }
+
   .modal__label {
     margin-bottom: 24px;
   }
@@ -121,5 +167,9 @@
 
   .modal__input {
     font-size: 16px;
+  }
+
+  .modal__image {
+    max-width: unset;
   }
 }
