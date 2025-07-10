@@ -12,6 +12,10 @@
   border-radius: 8px;
 }
 
+.card__image:hover {
+  cursor: pointer;
+}
+
 .card__title {
   margin: 0;
   text-overflow: ellipsis;
@@ -68,6 +72,7 @@
 
 .card__delete-btn:hover {
   background-image: url(../images/spots-avatar-and-card-images/State=Hover.svg);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {

@@ -9,8 +9,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 10px;
   visibility: hidden;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
 }
 
 .modal_type_preview {
@@ -19,6 +20,7 @@
 
 .modal_is-opened {
   visibility: visible;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
 }
 
 .modal__container {
@@ -121,6 +123,10 @@
 }
 
 .modal__caption {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
+  margin: 0;
   color: #fff;
   background-color: #212121;
   width: 198px;
@@ -134,10 +140,6 @@
 }
 
 @media screen and (max-width: 627px) {
-  .modal {
-    padding: 0 10px;
-  }
-
   .modal__container {
     padding: 12px;
   }
@@ -171,5 +173,9 @@
 
   .modal__image {
     max-width: unset;
+  }
+
+  .modal__caption {
+    font-size: 16px;
   }
 }
